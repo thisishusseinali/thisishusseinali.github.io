@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.pagetitle {
+    color: #800080;
+}
+
+#certificate {
+    text-align: center;
+    font-size: 12pt;
+    height: 816.7px;
+    width: 1145px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#certificate img {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+
+#certificate-content{
+    padding-top: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    z-index: 3;
+}
+
+.certificate-details {
+    font-family: "Roboto Slab", sans-serif;
+    letter-spacing: 3px;
+}
+
+.certificate-template {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+#course-name {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+#course-unit {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+#student-name {
+    font-size: 3em;
+    margin-bottom: .75em;
+}
+
+#distinction {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: .8em;
+    margin-top: -1em;
+}
+
+#date {
+    letter-spacing: .3px;
+}
